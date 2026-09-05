@@ -32,5 +32,5 @@ class Program
 git add Program.cs
 
 git commit -m "Add GreetUser function to Program.cs"
-}
+git remote add origin <README.md> 
 }
