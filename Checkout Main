@@ -21,4 +21,5 @@ jobs:
           
 git switch main
 git pull origin main
+git remote add origin <Checkout Main>
 }
