@@ -1,0 +1,24 @@
+git clone https://github.com/USERNAME/REPOSITORY.git
+cd REPOSITORY
+git checkout main
+git pull origin main
+name: Checkout Main
+{
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          
+git switch main
+git pull origin main
+}
